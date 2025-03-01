@@ -24,4 +24,6 @@ class AppServiceTest extends TestCase
         $response->assertStatus(404)
                  ->assertJson(["error" => "App not found"]);
     }
+
+    
 }
